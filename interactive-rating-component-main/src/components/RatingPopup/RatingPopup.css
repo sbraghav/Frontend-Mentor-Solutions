@@ -1,0 +1,59 @@
+.rating-popup{
+    background-color: var(--Dark-Blue);
+    height: max(200px, 45%);
+    width: max(300px, 45%);
+    border-radius: 10px;
+    display: grid;
+    padding: 20px 5px 10px 20px;
+}
+
+/* .rating__icon{
+    background: url('../../public/images/icon-star.svg') no-repeat;
+} */
+
+.rating__icon{
+    background-color: var(--Medium-Grey);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.highlight{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.rating__bannerMessage{
+    text-align: center;
+}
+
+.rating__info{
+    color: var(--Light-Grey);
+    text-align: center;
+}
+
+.rating__submit{
+    text-transform: uppercase;
+    background-color: var(--Orange);
+    width: 70%;
+    margin: auto;
+    outline: none;
+    border: 0;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.rating__submit:hover{
+    color: var(--Orange);
+    background-color: var(--White);
+}
+
+.rating__illustration{
+    margin: auto;
+}
+
+.rating__result{
+    margin: auto;
+    color: var(--Orange);
+    background-color: var(--Dark-Blue);
+}
